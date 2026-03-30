@@ -5,7 +5,7 @@ export default function Dashboard() {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
 
-  const handlelogout = () => {
+  const handleLogout = () => {
     logout();
     navigate("/login");
   };
